@@ -1,1 +1,340 @@
-
+{
+  "settings": {
+    "driver-1": {
+      "darkMode": false,
+      "notifications": true,
+      "units": "metric"
+    },
+    "operator-1": {
+      "darkMode": false,
+      "notifications": true,
+      "units": "metric"
+    }
+  },
+  "users": [
+    {
+      "id": "driver-1",
+      "name": "Swarit Garg",
+      "role": "driver",
+      "email": "driver@parksense.local",
+      "passwordHash": "30fc1a3970f511dc61322a604bda1686:eeb8cfc2791597a7814bebe452e71308678411cc7284071c874e0ccc5b79198041386fccfb0cfcd7b5ae9d4bd4495c06c2249a07f746a519512680fc2387500d"
+    },
+    {
+      "id": "operator-1",
+      "name": "Park Sense Operator",
+      "role": "operator",
+      "email": "operator@parksense.local",
+      "passwordHash": "4c4c3e96569604e8a35933a6d6ce9885:ffda44b1fd53452987f1efb8a25211e872aa3b109c2733fbaf8511dbf5b0f18a09cfa545d77d4d82f67ccaad7db72824c5245d809cefb64ed5440c92de79e302"
+    }
+  ],
+  "currentUser": "driver-1",
+  "parking": [
+    {
+      "id": "dlf-promenade",
+      "name": "DLF Promenade Parking",
+      "address": "Vasant Kunj, New Delhi",
+      "lat": 28.5439,
+      "lng": 77.1553,
+      "rate": 30,
+      "status": "open",
+      "floors": [
+        {
+          "id": "g",
+          "name": "Ground Floor",
+          "areas": [
+            {
+              "id": "A",
+              "name": "Area A",
+              "spaces": [
+                {
+                  "id": "A-01",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-02",
+                  "status": "occupied",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-03",
+                  "status": "free",
+                  "type": "accessible"
+                },
+                {
+                  "id": "A-04",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-05",
+                  "status": "reserved",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-06",
+                  "status": "free",
+                  "type": "ev"
+                }
+              ]
+            },
+            {
+              "id": "B",
+              "name": "Area B",
+              "spaces": [
+                {
+                  "id": "B-01",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "B-02",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "B-03",
+                  "status": "occupied",
+                  "type": "standard"
+                },
+                {
+                  "id": "B-04",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "B-05",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "B-06",
+                  "status": "occupied",
+                  "type": "standard"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l1",
+          "name": "Level 1",
+          "areas": [
+            {
+              "id": "C",
+              "name": "Area C",
+              "spaces": [
+                {
+                  "id": "C-01",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "C-02",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "C-03",
+                  "status": "occupied",
+                  "type": "standard"
+                },
+                {
+                  "id": "C-04",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "C-05",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "C-06",
+                  "status": "free",
+                  "type": "standard"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerId": "operator-1"
+    },
+    {
+      "id": "select-citywalk",
+      "name": "Select CITYWALK Parking",
+      "address": "Saket, New Delhi",
+      "lat": 28.5286,
+      "lng": 77.2197,
+      "rate": 40,
+      "status": "open",
+      "floors": [
+        {
+          "id": "g",
+          "name": "Ground Floor",
+          "areas": [
+            {
+              "id": "A",
+              "name": "Area A",
+              "spaces": [
+                {
+                  "id": "A-01",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-02",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-03",
+                  "status": "occupied",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-04",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-05",
+                  "status": "free",
+                  "type": "ev"
+                },
+                {
+                  "id": "A-06",
+                  "status": "free",
+                  "type": "standard"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l1",
+          "name": "Level 1",
+          "areas": [
+            {
+              "id": "B",
+              "name": "Area B",
+              "spaces": [
+                {
+                  "id": "B-01",
+                  "status": "occupied",
+                  "type": "standard"
+                },
+                {
+                  "id": "B-02",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "B-03",
+                  "status": "free",
+                  "type": "accessible"
+                },
+                {
+                  "id": "B-04",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "B-05",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "B-06",
+                  "status": "occupied",
+                  "type": "standard"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerId": "operator-1"
+    },
+    {
+      "id": "cyberhub",
+      "name": "DLF CyberHub Parking",
+      "address": "DLF Cyber City, Gurugram",
+      "lat": 28.4955,
+      "lng": 77.0898,
+      "rate": 25,
+      "status": "open",
+      "floors": [
+        {
+          "id": "g",
+          "name": "Ground Floor",
+          "areas": [
+            {
+              "id": "A",
+              "name": "Area A",
+              "spaces": [
+                {
+                  "id": "A-01",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-02",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-03",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-04",
+                  "status": "occupied",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-05",
+                  "status": "free",
+                  "type": "standard"
+                },
+                {
+                  "id": "A-06",
+                  "status": "free",
+                  "type": "standard"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerId": "operator-1"
+    },
+    {
+      "id": "parking-1505b05413",
+      "ownerId": "operator-1",
+      "name": "Prometheus School Parking",
+      "address": "Prometheus School, Jaypee Wish Town, Sector 132",
+      "lat": 28.51244,
+      "lng": 77.35955,
+      "rate": 30,
+      "status": "open",
+      "floors": [
+        {
+          "id": "floor-cfabb5a398",
+          "name": "Ground Floor",
+          "areas": [
+            {
+              "id": "A",
+              "name": "Area A",
+              "spaces": []
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-05T08:43:52.715Z"
+    }
+  ],
+  "reservations": []
+}
